@@ -15,6 +15,8 @@
   "dependencies": {
     "@pinia/colada": "^0.6.0",
     "@quasar/extras": "^1.16.4",
+    "@vueuse/core": "^10.11.0",
+    "firebase": "^10.12.2",
     "pinia": "^2.1.7",
     "quasar": "^2.16.0",
     "vue": "^3.4.18",
@@ -32,7 +34,14 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.4",
     "vite-plugin-checker": "^0.6.4",
-    "vue-tsc": "^1.8.22"
+    "vue-tsc": "^1.8.22",
+    "workbox-build": "^7.0.0",
+    "workbox-cacheable-response": "^7.0.0",
+    "workbox-core": "^7.0.0",
+    "workbox-expiration": "^7.0.0",
+    "workbox-precaching": "^7.0.0",
+    "workbox-routing": "^7.0.0",
+    "workbox-strategies": "^7.0.0"
   },
   "engines": {
     "node": "^20 || ^18 || ^16",
